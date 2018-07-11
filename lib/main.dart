@@ -27,7 +27,7 @@ class MyHomePage extends StatefulWidget {
 String reverseStringInNativeCode(String stringToReverse) native "reverseStringInNativeCode";
 
 class _MyHomePageState extends State<MyHomePage> {
-  String _sampleString = "Press the button to revere me in C!";
+  String _sampleString = "Press the button to reverse me in C!";
 
   void _reverseString() {
     setState(() {
